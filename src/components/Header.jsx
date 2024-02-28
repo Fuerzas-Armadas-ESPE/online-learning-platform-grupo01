@@ -1,11 +1,10 @@
 import { AppBar, Toolbar, Typography } from "@mui/material";
+import Navbar from "./Navbar";
 
 const Header = () => {
   return (
     <AppBar position="static">
-      <Toolbar>
-        <Typography variant="h6">Online Learning Platform</Typography>
-      </Toolbar>
+      <Navbar />
     </AppBar>
   );
 };
